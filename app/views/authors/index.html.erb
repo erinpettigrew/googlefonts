@@ -1,0 +1,15 @@
+<div class="page-header">
+  <h1>Authors</h1>
+</div>
+
+<ul class="nav nav-tabs nav-justified">
+  <li role="presentation" class="active"><a href="#">Name</a></li>
+</ul>
+
+<table class="table">
+  <% @authors.each do |author| %>
+    <tr>
+      <td><%= link_to author.name, author %></td>
+    </tr>
+  <% end %>
+</table>

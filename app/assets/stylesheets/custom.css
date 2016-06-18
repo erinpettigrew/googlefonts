@@ -1,0 +1,53 @@
+
+.text {
+  height:675px;
+  font-size:150%;
+}
+
+.helvetica {
+  font-family: 'Helvetica', ;
+}
+
+.libre {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.anonymous {
+  font-family: 'Anonymous Pro', ;
+}
+
+.nothing {
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.work-sans {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.arvo {
+  font-family: 'Arvo', serif;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.cambay {
+  font-family: 'Cambay', serif;
+}

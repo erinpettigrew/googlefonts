@@ -1,0 +1,17 @@
+<div class="page-header">
+  <h1>Books</h1>
+</div>
+
+
+  <ul class="nav nav-tabs nav-justified">
+    <li role="presentation" id="title" class="active"><a href="#">Title</a></li>
+    <li role="presentation" id="author"><a href="#">Author</a></li>
+  </ul>
+
+  <table class="table">
+  <% @books.each do |book| %>
+    <tr>
+      <td><%= link_to book.title, book %></td><td><%= link_to book.author.name, book.author %></td>
+    </tr>
+<% end %>
+</table>
